@@ -7,43 +7,47 @@
     <title>Dashboard</title>
     <link rel="shortcut icon" href="icons/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="mobileStyle.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-        <section id="result">
-            <h1>Seu Resultado</h1>
-            <div>
-                <h2>76</h2>
-                <h3>of 100</h3>
+        <section id="dashboard"> 
+            <div id="result">
+                <h1>Seu Resultado</h1>
+                <div id="bola">
+                    <h2>76</h2>
+                    <h3>de 100</h3>
+                </div>
+                <h4>Ótimo</h4>
+                <p>Você pontuou 65% a mais do que o total de pessoas que fizeram esse teste</p>
             </div>
-            <h2>Ótimo</h2>
-            <p>Você pontuou 65% a mais do que o total de pessoas que fizeram esse teste</p>
-        </section>
-        <section id="resume">
-            <h3>Resumo</h3>
-            <div class="result reaction">
-                <img src="icons/icon-reaction.svg" alt="Icone Memoria">
-                <h4>Reação</h4>
-                <h5>80/100</h5>
+            <div id="resume">
+                <h1>Resumo</h1>
+                <container class="container reacao">
+                    <img src="icons/icon-reaction.svg" alt="">
+                    <h2>Reação</h2>
+                    <h4>80/100</h4>
+                </container>
+                <container class="container memory">
+                    <img src="icons/icon-memory.svg" alt="">
+                    <h2>Memória</h2>
+                    <h4>92/100</h4>
+                </container>
+                <container class="container verbal">
+                    <img src="icons/icon-verbal.svg" alt="">
+                    <h2>Verbal</h2>
+                    <h4>61/100</h4>
+                </container>
+                <container class="container visual">
+                    <img src="icons/icon-visual.svg" alt="">
+                    <h2>Visual</h2>
+                    <h4>72/100</h4>
+                </container>
+                <container class="continue">
+                    <a href="#">Continue</a>
+                </container>
             </div>
-            <div class="result memory">
-                <img src="icons/icon-memory.svg" alt="Icone Memoria">
-                <h4>Memória</h4>
-                <h5>92/100</h5>
-            </div>
-            <div class="result verbal">
-                <img src="icons/icon-verbal.svg" alt="Icone Memoria">
-                <h4>Verbal</h4>
-                <h5>61/100</h5>
-            </div>
-            <div class="result visual">
-                <img src="icons/icon-visual.svg" alt="Icone Memoria">
-                <h4>Visual</h4>
-                <h5>72/100</h5>
-            </div>
-            <div class="continue">
-                <a href="#">Continue</a>
-            </div>
+
         </section>
     </main>
 </body>
