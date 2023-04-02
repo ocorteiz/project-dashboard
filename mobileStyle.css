@@ -142,10 +142,10 @@ div.visual h4 {
 div.continue {
     margin-top: 20px;
     margin-bottom: 10px;
-    text-align: center;
 }
 
 a {
+    text-align: center;
     text-decoration: none;
     background-color: #303b59;
     color: white;
