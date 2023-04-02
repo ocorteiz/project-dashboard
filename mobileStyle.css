@@ -30,10 +30,11 @@ RESOLUÇÃO DO WIDTH
     font-family: Haken Extra, Arial, Helvetica, sans-serif;
 }
 
-html, body, main {
+body, main {
     width: 100vw;
     height: 100vh;
 }
+
 
 div#result {
     text-align: center;
@@ -136,4 +137,8 @@ a {
     border-radius: 30px;
     padding: 15px;
     display: block;
+}
+
+a:hover {
+    background-color: #302cea;
 }

@@ -2,6 +2,38 @@
 
 @media screen and (min-width: 992px) {
     
+    section#dashboard {
 
+
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.164);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%,-50%);
+
+    }
+
+    div#result {
+        border-radius: 20px;
+    }
+
+    div#result h1 {
+        margin-top: 50px;
+    }
+
+    div#resume {
+        width: 700px;
+    }
+
+    div#resume h2 {
+        position: absolute;
+        left: 470px;
+    }
 }
+
 
