@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Haken';
+    src: url('fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Haken Extra';
+    src: url('fonts/static/HankenGrotesk-ExtraBold.ttf') format('truetype');
+}
+
+
+/* 
+
+TABELA DE DEVICE BREAKPOINT:
+
+CELULAR: 360Px ATÉ 768Px
+TABLETS: 768Px ATÉ 992Px
+DESKTOPS: 992Px ATÉ 1920Px
+TV: 1920Px ACIMA
+
+RESOLUÇÃO DO WIDTH
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Haken Extra, Arial, Helvetica, sans-serif;
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: blue rgb(255, 255, 255);
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(209, 209, 209);
+    border-radius: 20px;
+    border: 3px solid rgb(255, 255, 255);
+  }
+
+section#result {
+    background-image: linear-gradient(to bottom, #6743ff, #312cea);
+    margin-bottom: 20px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0px 0px 25px 25px;
+}
+
+section#result  h1 {
+    color: #bfacff;
+    font-size: 1.2em;
+}
+
+section#result div {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 35px;
+    background-image: linear-gradient(to top, #4c24cd00, #4b24cd);
+    border-radius: 50%;
+}
+
+section#result > div > h2 {
+    font-size: 3em;
+}
+
+section#result > div > h3 {
+    color: #bfacff;
+    font-size: 1em;
+}
+
+section#result p {
+    font-family: Haken, Arial, Helvetica, sans-serif;
+    color: #bfacff;
+    margin-top: 20px;
+}
+
+section#resume {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.result {
+    background-color: #fff6f5;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.result h4 {
+    position: absolute;
+    left: 70px;
+}
+
+div.reaction h4 {
+    color: #ff5555;
+}
+
+div.memory {
+    background-color: #fffbf2;
+}
+
+div.memory h4 {
+    color: #ffb21e;
+}
+
+div.verbal {
+    background-color: #f2fbfa;
+}
+
+div.verbal h4 {
+    color: #00bb8f;
+}
+
+div.visual {
+    background-color: #f3f3fd;
+}
+
+div.visual h4 {
+    color: #1125d6;
+}
+
+div.continue {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    background-color: #303b59;
+    color: white;
+    border-radius: 30px;
+    padding: 15px;
+    display: block;
+}
+
